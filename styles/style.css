@@ -139,9 +139,11 @@ ol {
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
-  overflow: hidden;
-  width: 200px;
-  height: 30px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
+  max-width: 200px;
+  width: 100%;
 }
 
 .content__video-card-description {
@@ -150,10 +152,12 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 16.2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
   word-break: normal;
-  width: 200px;
-  height: 65px;
+  max-width: 200px;
+  width: 100%;
 }
 
 .search-form__textfield {
